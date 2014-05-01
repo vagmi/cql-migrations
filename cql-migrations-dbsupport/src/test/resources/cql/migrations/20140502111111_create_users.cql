@@ -1,0 +1,1 @@
+create table users(user_id bigint primary key, name text);

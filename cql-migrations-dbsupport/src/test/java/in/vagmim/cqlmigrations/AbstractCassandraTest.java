@@ -18,8 +18,10 @@ public class AbstractCassandraTest {
     @BeforeClass
     public static void setUpCassandra() throws Exception {
         EmbeddedCassandraServerHelper.startEmbeddedCassandra();
+        // Usually you should not need this but for now this is the only
+        // way I can get consistent builds
         System.out.println("Starting embedded cassandra ... ");
-        Thread.sleep(1000);
+        Thread.sleep(3000);
     }
 
     @Before
