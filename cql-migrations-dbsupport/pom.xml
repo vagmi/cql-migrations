@@ -1,0 +1,15 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>in.vagmim</groupId>
+    <artifactId>cql-migrations-dbsupport</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <parent>
+        <artifactId>cql-migrations</artifactId>
+        <groupId>in.vagmim</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <name>CQL Migrations</name>
+</project>
