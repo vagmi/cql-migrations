@@ -1,13 +1,11 @@
 package in.vagmim.cqlmigrations.exceptions;
 
-import com.datastax.driver.core.exceptions.InvalidQueryException;
-
 public class MigrationException extends Throwable {
-    public MigrationException(String s, InvalidQueryException e) {
+    public MigrationException(String s, Exception e) {
         super(s,e);
     }
 
-    public MigrationException(InvalidQueryException e) {
+    public MigrationException(Exception e) {
         super(e);
     }
 }
